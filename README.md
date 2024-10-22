@@ -24,9 +24,9 @@ Esta é uma API desenvolvida em Flask que permite acessar informações de imóv
    cd seu-repositorio
 Crie e ative um ambiente virtual:
 
-```bash
-python -m venv venv
-source venv/bin/activate```
+   ```bash
+   python -m venv venv
+   source venv/bin/activate
   # Para Linux/Mac
 venv\Scripts\activate
 # Para Windows
