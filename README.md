@@ -31,7 +31,7 @@ venv\Scripts\activate  # Para Windows
 Instale as dependências:
 
 ```bash
-pip install -r requirements.txt
+pip install -r requirements.txt```
 Configure as credenciais do banco de dados:
 
 Certifique-se de que o arquivo credentials_PostgreSQL.enc esteja presente no diretório do projeto. Esse arquivo deve conter as credenciais de conexão ao banco de dados PostgreSQL.
