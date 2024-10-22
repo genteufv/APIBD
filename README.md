@@ -24,15 +24,13 @@ Esta é uma API desenvolvida em Flask que permite acessar informações de imóv
    cd seu-repositorio
 Crie e ative um ambiente virtual:
 
-bash
-Copiar código
+```bash
 python -m venv venv
 source venv/bin/activate  # Para Linux/Mac
 venv\Scripts\activate  # Para Windows
 Instale as dependências:
 
-bash
-Copiar código
+```bash
 pip install -r requirements.txt
 Configure as credenciais do banco de dados:
 
@@ -40,18 +38,16 @@ Certifique-se de que o arquivo credentials_PostgreSQL.enc esteja presente no dir
 
 (Opcional) Gere uma chave privada se ainda não tiver:
 
-bash
-Copiar código
+```bash
 openssl genpkey -algorithm RSA -out private.pem -pkeyopt rsa_keygen_bits:2048
 Execução
 Para iniciar a API, execute o seguinte comando:
 
-bash
-Copiar código
+```bash
 python app.py
 A API estará disponível em http://127.0.0.1:3600.
 
-Endpoints
+#Endpoints
 1. Buscar por Data
 URL: /get_view/data/<date_str>
 
@@ -63,9 +59,9 @@ date_str: Data no formato ddmmyyyy
 page: (opcional) Número da página para paginação
 Exemplo:
 
-bash
-Copiar código
+```bash
 GET /get_view/data/21092024?page=1
+
 2. Buscar por Inscrição
 URL: /get_view/inscricao/<inscricao>
 
@@ -77,9 +73,9 @@ inscricao: Inscrição do imóvel
 page: (opcional) Número da página para paginação
 Exemplo:
 
-bash
-Copiar código
+```bash
 GET /get_view/inscricao/123456?page=1
+
 3. Buscar Todos os Imóveis
 URL: /get_view/all
 
@@ -90,17 +86,10 @@ Parâmetros:
 page: (opcional) Número da página para paginação
 Exemplo:
 
-sql
-Copiar código
+```sql
 GET /get_view/all?page=1
 Contribuição
 Contribuições são bem-vindas! Sinta-se à vontade para abrir uma issue ou enviar um pull request.
-
-Licença
-Este projeto está licenciado sob a MIT License. Veja o arquivo LICENSE para mais detalhes.
-
-markdown
-Copiar código
 
 ### Dicas para Uso
 
