@@ -26,7 +26,8 @@ Crie e ative um ambiente virtual:
 
 ```bash
 python -m venv venv
-source venv/bin/activate  # Para Linux/Mac
+source venv/bin/activate```
+  # Para Linux/Mac
 venv\Scripts\activate
 # Para Windows
 Instale as dependências:
