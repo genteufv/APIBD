@@ -21,13 +21,13 @@ Esta é uma API desenvolvida em Flask que permite acessar informações de imóv
 
    ```bash
    git clone https://github.com/seu-usuario/seu-repositorio.git
-   cd seu-repositorio```
+   cd seu-repositorio
 Crie e ative um ambiente virtual:
 
 ```bash
 python -m venv venv
 source venv/bin/activate  # Para Linux/Mac
-venv\Scripts\activate  ```
+venv\Scripts\activate
 # Para Windows
 Instale as dependências:
 
