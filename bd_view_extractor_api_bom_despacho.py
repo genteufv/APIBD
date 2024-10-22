@@ -205,4 +205,4 @@ def get_all_view():
     }), 200
 
 if __name__ == '__main__':
-    app.run(debug=True, port=3600)
+    app.run(debug=True, port=3610)
